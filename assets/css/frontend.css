@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+body {overflow-x: hidden; font-family: 'Merriweather', serif; }
+h2 { font-weight: bolder; letter-spacing: .1em; font-size: 20px; text-transform: uppercase; }
+h3 { text-transform: uppercase; letter-spacing: .1em; font-size: 13px; line-height: 18px;}
+.link { text-decoration: none;}
+
+i.slick-prev { left: 0; }
+i.slick-next { right: 0; }
+i.slick-arrow { width: 40px; height: 40px; line-height: 40px; font-size: 20px; text-align: center; position: absolute; top: 40%; transform: translateY(-50%); cursor: pointer; z-index: 2;   color: #08355f; overflow-x: visible !important;}
+
+/*CLASSE DOS BUTTONS*/
+ .button { display: inline-block; background-color: #FFE69A; text-decoration: none; padding: 5px 10px;  border: 2px solid #FFD24C; box-shadow: 0 4px #FFD24C; transition: all 0.1s; color: #08355f; font-weight: 600; border-radius: 5px;}
+.button:active { box-shadow: none; transform: translateY(4px);  }
+.button:hover { color: #08355f; }
+
+/*BLOCO DO TOPO*/
+.topo { background-image: url('../images/background-topo.png'); background-position: center; background-size: cover; background-repeat: no-repeat; height: 200px; display: flex; align-items: center; color: #fff; }
+.topo .conteudo span { display: inline-block; background-color: #002a4d; padding: 5px 10px; margin-bottom: 10px; font-size: 14px; color: #fff; border-radius: 5px; }
+.topo .conteudo h1 { font-size: 18px;}
+
+.intro {background-color: #002a4d; color: #fff;}
+.intro p {font-size: 15px;}
+
+/*BLOCO PERGUNTAS FREQUENTAS*/
+.perguntas-frequentes .item {padding: 30px 0; color: #002a4d;}
+.perguntas-frequentes .item p {font-size: 14px;}
+.perguntas-frequentes .item figure { text-align: center;}
+.perguntas-frequentes .item figure img { box-shadow: 10px 10px 0 0px #08355f; width: 90%; }
+
+
+/*BLOCO ATENDIMENTO*/
+.atendimento { background-color: #002a4d; padding: 30px 0 30px 0; color: #fff;}
+.atendimento-bloco { background-color: #fff; padding: 30px 0; border-radius: 5px; }
+.atendimento-bloco h3 { font-size: 16px !important; font-weight: bolder !important;}
+.atendimento-bloco p { font-size: 14px; padding: 0 50px;}
+
+
+/*BLOCO ABOUT*/
+.about {background: linear-gradient(304deg, rgb(167, 203, 231) 0%, rgba(255, 255, 255, 1) 100%); padding-bottom: 30px; color: #002a4d; }
+.about img { width: 90%; box-shadow: 10px 10px 0 0px #08355f;  }
+.about span {display: inline-block; background-color: #002a4d; padding: 5px 10px; margin-bottom: 10px; font-size: 14px; color: #fff; border-radius: 5px;  }
+
+/*BLOCO ESTATISTICA-EMPRESA*/
+.estatistica-empresa { background-color: #f8f8f8; color: #002a4d;}
+.estatistica-empresa .estatistica-carousel .item { padding-top: 20px; margin: 0 20px; }
+.estatistica-empresa .estatistica-carousel .item h3 {padding-top: 30px; font-size: 30px !important; font-weight: bold;}
+.estatistica-empresa .estatistica-carousel .item img { height: 100px; display: block; margin-left: auto; margin-right: auto; }
+
+/*BLOCO SERVIÇOS*/
+.servicos { color: #002a4d; }
+.servicos .item {border: 2px solid #002a4d; padding: 20px 0; width: 90%; margin: 10px auto; box-shadow: 0 0 0 0px #002a4d; transition: all .4s; border-radius: 10px;}
+.servicos .item:hover { box-shadow: 10px 10px 0 0px #002a4d;}
+.servicos img { width: 100%; object-fit: contain;}
+.servicos .item a { color: #002a4d; text-decoration: none; }
+.servicos .item a:hover { color: #002a4d; }
+
+/*BLOCO CHAMADA*/
+.chamada { background-color: #002a4d; padding: 50px 0; color: #fff; }
+.chamada a { width: 50%; margin: 0 auto;}
+
+
+/*BLOCO BLOG*/
+.blog {padding: 30px 0; background-color: #f8f8f8; color: #002a4d;}
+.blog h2 { font-size: 30px;}
+.blog h3 { font-size: 13px !important;}
+.blog h4 { font-weight: bolder !important;}
+.blog h5 { font-size: 13px !important;}
+.blog .noticias-carousel .item { text-align: center; position: relative; margin-bottom: 20px;}
+.blog .noticias-carousel .item:hover {opacity: 0.8;}
+.blog .noticias-carousel img { width: 80%; margin: 20px auto 0 auto; opacity: 1; display: block;  height: auto; transition: .5s ease; backface-visibility: hidden;}
+.blog .noticias-carousel header { background-color:#fff; width: 80%; margin: 0 auto; padding: 20px 0 20px 0;}
+.blog .noticias-carousel header span { display: inline-block; background-color: #002a4d; padding: 5px 10px; margin-bottom: 10px; font-size: 12px; color: #fff; width: 30%; border-radius: 5px;}
+.blog .noticias-carousel header h4 { font-size: 20px;}
+.blog .noticias-carousel header h5 { font-size: 15px;}
+.blog .noticias-carousel a { text-decoration: none; color: #002a4d; }
+.blog .noticias-carousel a:hover { color: #002a4d; }
+.blog a { width: 80%;}
+
+
+@media (min-width: 991px) {
+    /*BLOCO DO TOPO*/
+    .topo {height: 500px;}
+    .topo .conteudo h1 { font-size: 50px;}
+
+    /*BLOCO PERGUNTAS FREQUENTAS*/
+    .perguntas-frequentes .item { width: 90%; margin: 0 auto;}
+
+
+    /*BLOCO ATENDIMENTO*/
+    .atendimento { padding: 30px 0 150px 0; }
+    .atendimento-bloco { margin-top: -320px; background-color: #fff; padding: 30px 30px; position: relative; z-index: 2; width: 80%;}
+    .atendimento-bloco h3 { font-size: 20px;}
+    .atendimento-bloco p { font-size: 16px; padding: 0 0;}
+
+    /*BLOCO ABOUT*/
+    .about {padding: 200px 0 50px 0;}
+    .about img { width: 80%;}
+
+    /*BLOCO SERVIÇOS*/
+    .servicos h2 { font-size: 30px;}
+    .servicos .item { width: 30%; margin: 10px 10px; }
+
+    /*BLOCO BLOG*/
+    .blog .noticias-carousel img { width: 90%; }
+    .blog .noticias-carousel header {  width: 90%; }
+    .blog h3 { font-size: 20px;}
+    .blog a { width: 25%;}
+    
+    /*BLOCO CHAMADA*/
+    .chamada a { width: 10%;}
+
+}
+
